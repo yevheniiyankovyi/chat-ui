@@ -1,0 +1,114 @@
+body {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+}
+
+.chatArea {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 140px;
+    position: fixed;
+    top: 0px;
+    overflow-y: scroll;
+}
+
+.messages {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+}
+
+li {
+    width: 100%;
+    float: left;
+    padding-right: 40px;
+    margin-top: 4px;
+}
+
+form {
+    position: fixed;
+    bottom: 0;
+    border-top: #000000 solid;
+    background: #ffffff;
+    height: 140px;
+    padding: 5px;
+    width: 100%;
+}
+
+img {
+    float: left;
+    height: 49px;
+    width: 49px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.messageContent {
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 22px;
+    background: #FFFFFF;
+}
+
+.own {
+    background: rgb(188, 234, 245);
+}
+
+#message {
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    padding: 15px;
+    display: table;
+    margin-left: 58px;
+    word-break: break-all;
+}
+
+span {
+    background: rgb(241, 245, 241);
+}
+
+input {
+    border: 1px solid;
+    padding: 5px 10px;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.error{
+    border-color: red;
+}
+
+form button {
+    background: #FFFFFF;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form img {
+    height: 124px;
+    width: 124px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}

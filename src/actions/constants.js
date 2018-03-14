@@ -1,0 +1,4 @@
+export const SUBMIT = 'SUBMIT';
+export const CHANGE_USERNAME = 'CHANGE_USERNAME';
+export const RECIEVE_MESSAGE = 'RECIEVE_MESSAGE';
+export const CHANGE_TEXT = 'CHANGE_TEXT';
